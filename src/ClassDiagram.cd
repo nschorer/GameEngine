@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="GetGraphicsObject" Hidden="true" />
+      <Method Name="GetWorld" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetWorld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAkAAAARAAAAAAAAAAAAAAAAhEAIAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poGraphicsObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="~GraphicsObject" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAYAAAgAAAAAAAQAABAhEAAAAAA=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pShaderObj" />
+      <Field Name="poWorld" />
+      <Field Name="pModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="~RenderMaterial" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RenderMaterial" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RenderMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeModel" Collapsed="true">
+    <Position X="8" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAIA=</HashCode>
+      <FileName>CubeModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderObject" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="~ShaderObject" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privCreateShader" Hidden="true" />
+      <Method Name="privLoadNCompile" Hidden="true" />
+      <Method Name="ShaderObject" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ShaderObject::Name">
+        <TypeIdentifier>
+          <NewMemberFileName>ShaderObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAAAAAAAAAAAAAAABEQBAAAAAgAKAAAAA=</HashCode>
+      <FileName>ShaderObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_ColorByPosition">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <Members>
+      <Method Name="GraphicsObject_ColorByPosition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsObject_ColorByPosition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Matrix" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Azul::Matrix::Special" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Rot1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Trans" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Scale" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Rot" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Orient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Row" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Matrix::Rot3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CIJCIgAAAACBAAAAAAQAwwAAAkEiEAAAgAAwAAAEQAA=</HashCode>
+      <FileName>C:\code\_______GAM475Spring2020\instructor\Lectures\Week_08\System_Libs\Math\include\Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAKAAAAAAAEAAgAAAAAAAAAAAAAAAAAggAAAEAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
